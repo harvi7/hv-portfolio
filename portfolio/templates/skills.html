@@ -1,0 +1,90 @@
+{% load static %}
+
+<section id="skills-section" class="skills-section section text-center">
+    <h2 class="section-title">Professional Skills</h2>
+    <div class="other-skills">
+        
+        <div class="misc-skills">
+            <h3>Languages</h3>
+            {% for language in languages %}
+            <span class="skill-tag">{{ language }}</span>
+            {% endfor %}
+        </div>
+
+        <div class="misc-skills">
+            <h3 >Web Technologies</h3>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">Javascript ES6</span>
+            <span class="skill-tag">ReactJS</span>
+            <span class="skill-tag">ExpressJS</span>
+            <span class="skill-tag">NodeJS</span>
+            <span class="skill-tag">AngularJS</span>
+            <span class="skill-tag">JSON</span>
+            <span class="skill-tag">XML</span>
+        </div>
+
+        <div class="misc-skills">
+            <h3 >Tools and Technologies</h3>
+            {% for element in tools_and_tech %}
+            <span class="skill-tag">{{ element }}</span>
+            {% endfor %}
+        </div>
+
+        
+        <div class="misc-skills">
+            <h3 >Relevant Courses</h3>
+            {% for course in courses %}
+            <span class="skill-tag">{{ course }}</span>
+            {% endfor %}
+        </div>
+    </div><!--//other-skills-->
+
+</section><!--//skills-section-->
+
+
+        <!-------------------------------------------------------------------- Testimonials  --------------------------------------------------------------->
+
+
+
+        <!-- <section id="testimonials-section" class="testimonials-section section">
+            <h2 class="section-title">Recommendations</h2>
+
+            <div id="testimonials-carousel" class="testimonials-carousel carousel slide" data-interval="8000">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#testimonials-carousel" data-slide-to="1"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <blockquote class="quote">
+                            <i class="fa fa-quote-left"></i>
+                            <p>An excellent partner, developer and friend. We've worked together for live project matrimonial website 2018, participating in several positions in the Software Development field and side projects.</p>
+                            <p>He is creative, innovative, responsible and quite a rational thinker. Coding as a way of life, his work presents products with great quality, following standards and good practices.</p>
+                            <p>Also passionate, confident, cheerful and respectful, his animosity moves people forward toward achieving the team's goals.</p>
+                        </blockquote>
+                        <div class="source">
+                            <div class="name">Chacha Suhani</div>
+                            <div class="position">Computer Engineer , Aditya Silver Oak Institute Of Technology</div>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <blockquote class="quote">
+                            <p><i class="fa fa-quote-left"></i>
+                              Mehul is a really good working partner with high knowledge on backend development, he is always concerned with going forward never afraid of improving or making use of new technologies, helping his peers whenever he is able to and solving problems in a quick and efficient manner with his typical optimism</p>.<p>Saying from personal Experience when we worked on project togather for 2 years.</p>
+                        </blockquote>
+                        <div class="source">
+                            <div class="name">Hetal Nathvani</div>
+                            <div class="position">position , Company</div>
+                        </div><
+
+                    </div>
+
+                </div><
+            </div>
+
+        </section> -->

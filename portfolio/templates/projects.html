@@ -1,0 +1,166 @@
+{% load static %}
+
+<section id="portfolio-section" class="portfolio-section section">
+    <h2 class="section-title">Projects</h2>
+    <ul id="filters" class="filters clearfix">
+        <li class="type active" data-filter="*">All</li>
+        <li class="type" data-filter=".datascience">Data Science and Analysis</li>
+        <li class="type" data-filter=".webapp">Web Applications</li>
+    </ul><!--//filters-->
+    <div class="items-wrapper isotope row">
+
+        <div class="item backend webapp col-md-4 col-xs-8 ">
+            <div class="item-inner">
+                <figure class="figure">
+                    <img class="img-responsive" src="{% static 'images/portfolio/MERNStackImage.jpg' %}" alt="" />
+                </figure>
+                <div class="content text-left">
+                    <h3 class="sub-title"><a href="https://tranquil-headland-34148.herokuapp.com/"> Emaily – Survey System </a></h3>
+                    <p> Full-Stack Web Application </p>
+                    <div class="meta">
+                        <p> Technology: MongoDB, ExpressJS, ReactJS, NodeJS</p>
+                       <br>
+                       <ul>
+                           <li style="text-align: justify;">Built a MERN-stack survey-feedback collecting application that allows users to create and send mass emails of surveys and receive the feedback.</li> 
+                           <li style="text-align: justify;">Implemented the authentication system using Passport.js and Google OAuth 2.0, utilized the Stripe API for handling billing and payment processing and the SendGrid API for automated emails.</li>
+                        </ul>
+                    </div>
+                    <div class="action"><a href="https://github.com/harvi7/emaily-app">Source: Github</a></div>
+                </div><!--//content-->
+                <!-- <a class="link-mask" href="https://github.com/harvi7/emaily-app"></a> -->
+            </div><!--//item-inner-->
+        </div><!--//item-->
+
+        <div class="item datascience col-md-4 col-xs-8 ">
+            <div class="item-inner">
+                <figure class="figure">
+                    <img class="img-responsive" src="{% static 'images/portfolio/pythonlogo.png' %}" alt="" />
+                </figure>
+                <div class="content text-left">
+                    <h3 class="sub-title"><a href="#"> Hand Image Data Analysis, Indexing, Classification, and Retrieval Application </a></h3>
+                    <!-- <p> Full-Stack Web Application </p> -->
+                    <div class="meta">
+                        <p> Technology: Python, MongoDB, scikit-learn, NumPy, SciP</p>
+                       <br>
+                       <ul>
+                           <li style="text-align: justify;"> Developed a classification system for Hand images by collaborative filtering using various algorithms. Compressed Multimedia data using algorithms like SVD, PCA, LDA, graph model(PageRank) and stored it in the MongoDB database. </li> 
+                           <li style="text-align: justify;"> Implemented graph partitioning algorithms like KD-trees for eﬀective storage and PPR, LSH for retrieval of data. </li>
+                        </ul>
+                    </div>
+                    <div class="action"><a href="#/">Source: Github</a></div>
+                </div><!--//content-->
+                <a class="link-mask" href="#"></a>
+            </div><!--//item-inner-->
+        </div><!--//item-->
+
+        <div class="item datascience col-md-4 col-xs-8 ">
+            <div class="item-inner">
+                <figure class="figure">
+                    <img class="img-responsive" src="{% static 'images/portfolio/ApacheSpark.png' %}" alt="" />
+                </figure>
+                <div class="content text-left">
+                    <h3 class="sub-title"><a href="#"> Geospatial Data Clustering for Traﬃc Management </a></h3>
+                    <!-- <p> Full-Stack Web Application </p> -->
+                    <div class="meta">
+                        <!-- <p> Technology: Python, MongoDB, scikit-learn, NumPy, SciP</p> -->
+                       <br>
+                       <ul>
+                           <li style="text-align: justify;">Developed distributed application for classifying dense traﬃc areas (for traﬃc management), using Apache Spark Scala APIs, Hadoop File System to perform range, distance queries on point and rectangle coordinate set of geospatial GPS data.  </li> 
+                        </ul>
+                    </div>
+                    <div class="action"><a href="#/">Source: Github</a></div>
+                </div><!--//content-->
+                <a class="link-mask" href="#"></a>
+            </div><!--//item-inner-->
+        </div><!--//item-->
+       
+       <div class="item datascience col-md-4 col-xs-8 ">
+            <div class="item-inner">
+                <figure class="figure">
+                    <img class="img-responsive" src="{% static 'images/portfolio/ApacheSpark.png' %}" alt="" />
+                </figure>
+                <div class="content text-left">
+                    <h3 class="sub-title"><a href="#"> Section Classification in Clinical Notes </a></h3>
+                    <!-- <p> Full-Stack Web Application </p> -->
+                    <div class="meta">
+                        <!-- <p> Technology: Python, MongoDB, scikit-learn, NumPy, SciP</p> -->
+                       <br>
+                       <ul>
+                           <li style="text-align: justify;"> Applied two deep learning models using TensorFlow - LSTM and CNN on de-identified clinical narratives data from the i2b2 dataset, that attempt to recognize the header of a section given the discharge summaries of a patient. </li> 
+                           <li style="text-align: justify;"> Stemmed and cleaned about 1500 notes from i2b2 NLP Research Datasets from the first four i2b2 challenges. </li>
+                        </ul>
+                    </div>
+                    <div class="action"><a href="#/">Source: Github</a></div>
+                </div><!--//content-->
+                <a class="link-mask" href="#"></a>
+            </div><!--//item-inner-->
+        </div><!--//item-->
+
+        <div class="item webapp col-md-4 col-xs-8 ">
+            <div class="item-inner">
+                <figure class="figure">
+                    <img class="img-responsive" src="{% static 'images/portfolio/MERNStackimage.jpg' %}" alt="" />
+                </figure>
+                <div class="content text-left">
+                    <h3 class="sub-title"><a href="#"> Online Grievance Redressal System </a></h3>
+                    <!-- <p> Full-Stack Web Application </p> -->
+                    <div class="meta">
+                        <!-- <p> Technology: Python, MongoDB, scikit-learn, NumPy, SciP</p> -->
+                       <br>
+                       <ul>
+                           <li style="text-align: justify;"> Developed a web-based application for my university which eased the process of filing a grievance for all the university members. </li> 
+                           <li style="text-align: justify;"> Took the initiative of the project and upgraded the university’s traditional process of paper-based grievance filing. </li>
+                        </ul>
+                    </div>
+                    <div class="action"><a href="#/">Source: Github</a></div>
+                </div><!--//content-->
+                <a class="link-mask" href="#"></a>
+            </div><!--//item-inner-->
+        </div><!--//item-->
+
+        <div class="item datascience col-md-4 col-xs-8 ">
+            <div class="item-inner">
+                <figure class="figure">
+                    <img class="img-responsive" src="{% static 'images/portfolio/pythonlogo.png' %}" alt="" />
+                </figure>
+                <div class="content text-left">
+                    <h3 class="sub-title"><a href="#"> Analyzing real-time cryptocurrency in python </a></h3>
+                    <!-- <p> Full-Stack Web Application </p> -->
+                    <div class="meta">
+                        <!-- <p> Technology: Python, MongoDB, scikit-learn, NumPy, SciP</p> -->
+                       <br>
+                       <ul>
+                           <li style="text-align: justify;"> Developed a python program that retrieves real-time cryptographic information using CoinMarketCap API and allows the users to track, visualize and store cryptocurrency data. </li> 
+                           <li style="text-align: justify;"> Added notification and voice alerts that the user can set when a specific change in price occurs and later storing all these data in excel workbook. </li>
+                        </ul>
+                    </div>
+                    <div class="action"><a href="#/">Source: Github</a></div>
+                </div><!--//content-->
+                <a class="link-mask" href="#"></a>
+            </div><!--//item-inner-->
+        </div><!--//item-->
+
+        <div class="item webapp col-md-4 col-xs-8 ">
+            <div class="item-inner">
+                <figure class="figure">
+                    <img class="img-responsive" src="{% static 'images/portfolio/pythonlogo.png' %}" alt="" />
+                </figure>
+                <div class="content text-left">
+                    <h3 class="sub-title"><a href="#"> Personal Assistant for PC in Python </a></h3>
+                    <!-- <p> Full-Stack Web Application </p> -->
+                    <div class="meta">
+                        <!-- <p> Technology: Python, MongoDB, scikit-learn, NumPy, SciP</p> -->
+                       <br>
+                       <ul>
+                           <li style="text-align: justify;"> Created a python program that performs tasks such as – obtaining google search results using web crawling from google images, obtaining stock data from yahoo ﬁnance, speech to text conversion using Google Speech Recognition API, performs various system functions such as shut down, creating, deleting and editing ﬁles. </li> 
+                        </ul>
+                    </div>
+                    <div class="action"><a href="#/">Source: Github</a></div>
+                </div><!--//content-->
+                <a class="link-mask" href="#"></a>
+            </div><!--//item-inner-->
+        </div><!--//item-->
+
+    </div><!--//item-wrapper-->
+
+</section><!--//section-->
